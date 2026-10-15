@@ -1,0 +1,9 @@
+---
+description: Commit message and branching conventions. Apply when the user asks to commit, write a commit message, or open a pull request.
+alwaysApply: false
+---
+
+- Conventional Commits: `type(scope): imperative summary` (feat, fix, refactor, perf, test, docs, build, ci, chore). Subject max 72 chars.
+- Body explains why, not what. Add `BREAKING CHANGE:` when public APIs, env vars or schemas change.
+- One logical change per commit. Suggest splitting mixed diffs.
+- Show the message and ask before committing. Never `--no-verify`, never force-push, never rewrite pushed history unless explicitly asked.
